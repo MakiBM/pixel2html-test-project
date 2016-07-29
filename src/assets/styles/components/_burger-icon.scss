@@ -1,0 +1,42 @@
+.burger__icon,
+.burger__icon:before,
+.burger__icon:after {
+  display: inline-block;
+  width: 15px;
+  height: 2px;
+  background: $bg-dark-primary;
+  transition: all 200ms ease;
+  transform-origin: center;
+}
+
+.burger__icon {
+  position: relative;
+}
+
+.burger__icon:before,
+.burger__icon:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+
+.burger__icon:before {
+  transform: translateY(-4px) translateZ(0);
+}
+
+.burger__icon:after {
+  transform: translateY(4px) translateZ(0);
+}
+
+.burger--active {
+  .burger__icon {
+    transform: scale(0.1) translateZ(0);
+  }
+  .burger__icon:before {
+    transform: rotate(-45deg) scale(10) translateZ(0);
+  }
+  .burger__icon:after {
+    transform: rotate(45deg) scale(10) translateZ(0);
+  }
+}

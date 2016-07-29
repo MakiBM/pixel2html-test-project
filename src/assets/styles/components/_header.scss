@@ -1,0 +1,41 @@
+.header {
+  height: 100px;
+  line-height: 100px;
+  color: $color-body;
+}
+
+.header__sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $z-header;
+  width: 100%;
+  background: $bg-light-primary;
+  transform: translateZ(0);
+
+  @include shadow();
+  .container {
+    position: relative;
+  }
+}
+
+.header__logo {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header__burger {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+@media screen and (max-width: 710px) {
+  .header__burger {
+    opacity: 1;
+  }
+}

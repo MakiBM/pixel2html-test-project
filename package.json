@@ -1,0 +1,33 @@
+{
+  "name": "pixel2html-001-Module02",
+  "description": "pixel2html 001/Module02",
+  "license": "MIT",
+  "repository": "http://code.pixel2html.com",
+  "version": "1.0.0",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "browser-sync": "2.6.5",
+    "browserify": "^13.1.0",
+    "del": "^2.0.0",
+    "gulp": "3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-cache": "0.2.8",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.0",
+    "gulp-util": "^3.0.6",
+    "gulp-zip": "^3.0.2",
+    "jquery": "^3.1.0",
+    "jquery-bridget": "^2.0.1",
+    "require-dir": "^0.3.0",
+    "slick-carousel-browserify": "^1.6.12",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

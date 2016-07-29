@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="11px" viewBox="0 0 16 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Front-end-Developer-Test" transform="translate(-180.000000, -2199.000000)" fill="#7DC855">
+            <g id="Price-Tables-#1" transform="translate(0.000000, 1514.000000)">
+                <g id="Price-Plans" transform="translate(150.000000, 342.000000)">
+                    <g id="Basic-Plan" transform="translate(30.000000, 30.000000)">
+                        <path d="M15.8620603,313.780759 L15.1957147,313.13406 C15.0117167,312.955313 14.7133671,312.955313 14.5293691,313.13406 L5.93322866,321.479263 C5.74923069,321.65801 5.45088104,321.65801 5.26688307,321.479263 L1.47116024,317.794321 C1.28716227,317.615574 0.988342037,317.615574 0.80481465,317.794321 L0.137998477,318.441019 C-0.0459994925,318.619766 -0.0459994925,318.909428 0.137998477,319.088176 L4.9219457,323.731936 C5.28947105,324.088972 5.88569977,324.089431 6.25416629,323.732853 L15.8615897,314.428373 C16.0460583,314.249626 16.0460583,313.959506 15.8620603,313.780759" id="Icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

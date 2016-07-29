@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  color: $color-accent-primary;
+  background: $bg-light-primary;
+  border-radius: 6px;
+  transform: scale(0.99);
+  &:hover {
+    transform: scale(1);
+
+    @include shadow();
+  }
+}
+
+.btn--wide {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid $line-color;
+}
+
+.btn--tall {
+  padding: 20px 30px;
+}
+
+.btn--action {
+  color: $bg-light-primary;
+  background: $bg-accent-secondary;
+  border: none;
+}

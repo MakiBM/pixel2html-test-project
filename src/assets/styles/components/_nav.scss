@@ -1,0 +1,37 @@
+.header__nav {
+  display: inline-block;
+  transition: transform 200ms ease;
+}
+
+.header__nav__link {
+  display: inline-block;
+  padding: 0 20px;
+  font-weight: $font-weight-medium;
+  color: $color-body;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+
+@media screen and (max-width: 710px) {
+  .header__nav {
+    position: fixed;
+    top: 0;
+    right: -310px;
+    display: block;
+    width: 300px;
+    height: 100vh;
+    padding: 120px 30px;
+    line-height: 50px;
+    background: $bg-light-primary;
+
+    @include shadow();
+  }
+  .header__nav--active {
+    transform: translateX(-310px) translateZ(0);
+  }
+  .header__nav__link {
+    display: block;
+  }
+}

@@ -1,0 +1,51 @@
+.h1 {
+  font-size: 52px;
+  font-weight: $font-weight-light;
+  line-height: 58px;
+  color: $color-heading;
+  letter-spacing: -2px;
+}
+
+.h2 {
+  font-size: 32px;
+  font-weight: $font-weight-light;
+  line-height: 38px;
+  color: $color-heading;
+}
+
+.h3 {
+  font-size: 18px;
+  color: $color-heading;
+}
+
+.section-heading {
+  padding-top: 100px;
+  text-align: center;
+
+  @extend .h1;
+}
+
+.section-subheading {
+  max-width: 655px;
+  padding-top: 30px;
+  padding-bottom: 55px;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: $font-weight-light;
+  line-height: 30px;
+  color: $color-subheading;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .section-heading {
+    font-size: 40px;
+    line-height: 45px;
+    padding-top: 50px;
+  }
+  .section-subheading {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

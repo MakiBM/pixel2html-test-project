@@ -1,0 +1,122 @@
+.pricing-table {
+  display: flex;
+  overflow: hidden;
+  text-align: center;
+  background: $bg-light-primary;
+  border-radius: 6px;
+
+  @include shadow();
+}
+
+.pricing-table__plan {
+  padding: 30px;
+
+  flex: 1;
+}
+
+.pricing-table__plan:first-of-type {
+  border-right: 1px solid $line-color--mutted;
+}
+
+.pricing-table__head {
+  padding-bottom: 25px;
+  border-bottom: 1px solid $line-color;
+}
+
+.pricing-table__heading {
+  font-size: 14px;
+  color: $color-accent-primary;
+  text-transform: uppercase;
+  letter-spacing: 1.29px;
+}
+
+.pricing-table__subheading {
+  padding: 0;
+}
+
+.pricing-table__price {
+  @extend .h1;
+}
+
+.pricing-table__price-desc {
+  font-size: 14px;
+}
+
+.pricing-table__content {
+  padding: 30px 0;
+  border-bottom: 1px solid $line-color;
+}
+
+.pricing-table__feature {
+  padding: 15px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.pricing-table__icon {
+  position: relative;
+  top: 1px;
+  padding-right: 15px;
+  font-size: 14px;
+  color: $color-accent-secondary;
+}
+
+.pricing-table__feature--disabled {
+  color: $color-body--muted;
+  background: none;
+  .pricing-table__icon {
+    visibility: hidden;
+  }
+}
+
+.pricing-table__btn {
+  margin-top: 20px;
+}
+
+
+// Nesting allowed for theming from parent class
+.pricing-table__plan.pricing-table__plan--bold {
+  background: $bg-accent-primary;
+  .pricing-table__heading,
+  .pricing-table__subheading,
+  .pricing-table__price,
+  .pricing-table__price-desc,
+  .pricing-table__plan-desc,
+  .pricing-table__feature {
+    color: $color-body--light;
+  }
+  .pricing-table__head,
+  .pricing-table__content {
+    border-color: rgba(255,255,255,0.2);
+  }
+  .pricing-table__subheading,
+  .pricing-table__plan-desc {
+    opacity: 0.59;
+  }
+  .pricing-table__price-desc {
+    opacity: 0.69;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .pricing-table {
+    display: block;
+    width: 450px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .pricing-table__plan {
+    padding-bottom: 50px;
+  }
+  .pricing-table__plan:first-of-type {
+    border-right: none;
+    border-bottom: 1px solid $line-color--mutted;
+  }
+  .pricing-table__feature {
+    text-align: center;
+  }
+  .pricing-table__feature--disabled .pricing-table__icon {
+    display: none;
+  }
+}

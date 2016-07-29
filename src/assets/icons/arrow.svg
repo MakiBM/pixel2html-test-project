@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="28px" viewBox="0 0 15 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Front-end-Developer-Test" transform="translate(-1305.000000, -1250.000000)" fill="#86939E">
+            <g id="Contents-#8" transform="translate(0.000000, 1014.000000)">
+                <path d="M1305.46007,251.157059 C1304.84664,250.518 1304.84664,249.482 1305.46007,248.842941 L1317.55023,236.239647 C1317.85655,235.920118 1318.35393,235.920118 1318.66025,236.239647 L1319.77026,237.396706 C1320.07658,237.716235 1320.07658,238.234235 1319.77026,238.553765 L1309.34433,249.421059 C1309.03801,249.740588 1309.03801,250.259412 1309.34433,250.578118 L1319.77026,261.446235 C1320.07658,261.765765 1320.07658,262.283765 1319.77026,262.603294 L1318.66025,263.760353 C1318.35393,264.079882 1317.85655,264.079882 1317.55023,263.760353 L1305.46007,251.157059 Z" id="Icon" transform="translate(1312.500000, 250.000000) scale(-1, 1) translate(-1312.500000, -250.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

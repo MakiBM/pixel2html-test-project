@@ -1,0 +1,8 @@
+before_script:
+   - npm-cache install
+job:
+   script:
+      - gulp
+      - gulp build:zip
+      - rsync -pva --exclude 'node_modules' --exclude 'assets/src' --exclude '.*' --exclude '.*/' ./ deployer@demos.pixel2html.com:/home/deployer/www/demos/000001/000Module02/
+      - "curl -X POST -F path=000001/000Module02 http://deployer.pixel2html.com/html/demo_links_update"

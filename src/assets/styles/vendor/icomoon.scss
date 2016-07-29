@@ -1,0 +1,43 @@
+// If updating pleas update path to fonts folder and add .icommon class (for @extend)
+
+@font-face {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+
+  src:  url('../fonts/icomoon.eot?fpzmnz');
+  src:  url('../fonts/icomoon.eot?fpzmnz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?fpzmnz') format('truetype'),
+    url('../fonts/icomoon.woff?fpzmnz') format('woff'),
+    url('../fonts/icomoon.svg?fpzmnz#icomoon') format('svg');
+}
+
+.icomoon,
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+}
+
+.icon-arrow:before {
+  content: '\e900';
+}
+.icon-checkmark:before {
+  content: '\e901';
+}
+.icon-dropdown:before {
+  content: '\e902';
+}
+.icon-lang:before {
+  content: '\e903';
+}

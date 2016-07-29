@@ -1,0 +1,9 @@
+@mixin shadow()
+{
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+
+@mixin img($name)
+{
+    background-image: url('../images/#{$name}');
+}
